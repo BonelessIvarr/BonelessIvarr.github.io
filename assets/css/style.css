@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    padding-left: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links ul {
+    float: right;
+    margin-right: 30px;
+    display: flex;
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #060606;
+    padding: 10px;
+    display: block;
+}
+
+.navbar-links li a:hover {
+    border-bottom: 3px solid #FFA800;
+}
+
+#lv {
+    display: none;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.watchrequisite {
+    position: absolute;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .logo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .logo>img {
+    width: 100px;
+}
+
+.container .background {
+    width: 100%;
+}
+
+.ripped {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+
+.ripped-photo {
+    position: absolute;
+    width: 100%;
+    top: 10px;
+}
+
+.downripped {
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+}
+
+.box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    font-family: 'Montserrat';
+    text-align: center;
+    color: #2F4858;
+    font-size: 18px;
+}
+
+#photo-gallery {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.column {
+    width: auto;
+    object-fit: cover;
+}
+
+.button {
+    background-color: #FFA800;
+    border-radius: 30px;
+    border-color: #FFA800;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 18px;
+    margin: 4px 2px;
+}
+
+.txt {
+    text-transform: uppercase;
+    color: #2F4858;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #2F4858;
+}
+
+.float-child {
+    position: relative;
+    text-align: center;
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.button:hover {
+    background-color: #FFCB66;
+}
+
+.form {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.info {
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+    border-color: rgba(196, 196, 196, 0.4);
+    border-width: 0;
+    width: 400px;
+}
+
+#flname {
+    width: 296px;
+    height: 43px;
+}
+
+#email {
+    width: 296px;
+    height: 43px;
+}
+
+#phone {
+    width: 600px;
+    height: 43px;
+}
+
+#question {
+    width: 600px;
+    height: 232px;
+}
+
+input[ id="question"]::placeholder {
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+input[ type="text"]::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #2F4858;
+}
+
+.col-container {
+    display: table;
+    width: 100%;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.col {
+    display: inline-block;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#first {
+    margin-top: 40px;
+}
+
+#footer-text {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #2F4858;
+}
+
+#footerfirst {
+    position: absolute;
+    width: 100%;
+}
+
+#footersecond {
+    position: absolute;
+    width: 100%;
+}
+
+#rights {
+    text-align: left;
+}
+
+#idea {
+    text-align: left;
+}
+
+#bank {
+    text-align: left;
+}
+
+#contact {
+    text-align: right;
+}
+
+#footer-rights2 {
+    display: none;
+}
+
+
+@media (min-width: 240px) and (max-width: 500px) {
+
+    body {
+        width: 100%;
+    }
+
+    #footersecond {
+        position: absolute;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #footerfirst {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #float-child-first {
+        padding-left: 30px;
+        margin-bottom: 10px;
+        width: auto;
+    }
+
+    #float-child-second {
+        padding-left: 0px;
+        margin-bottom: 10px;
+        width: auto;
+    }
+
+    .column {
+        width: auto;
+        height: auto;
+    }
+
+    .ripped {
+        width: 100%;
+        height: auto;
+    }
+
+    .downripped {
+        width: 100%;
+        height: auto;
+    }
+
+    #playbutton {
+        position: absolute;
+        padding: auto;
+    }
+
+    #footer-rights1 {
+        display: none;
+    }
+
+    #footer-rights2 {
+        display: flex;
+    }
+
+    .col-container {
+        display: table;
+        width: 100%;
+        color: white;
+        text-align: left;
+        position: relative;
+    }
+
+    .col {
+        display: inline-block;
+        padding-left: 100px;
+    }
+
+    #rights {
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    #idea {
+        display: none;
+    }
+
+    #bank {
+        display: none;
+    }
+
+    #contact {
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 50px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+
+    body {
+        width: 100%;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .box {
+        align-items: center;
+        width: auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #flname {
+        width: 296px;
+        height: 43px;
+        margin-bottom: 20px;
+    }
+
+    #email {
+        width: 296px;
+        height: 43px;
+    }
+
+    #phone {
+        width: 296px;
+        height: 43px;
+    }
+
+    #question {
+        width: 296px;
+        height: 232px;
+    }
+
+    #float-child-first {
+        margin-bottom: 10px;
+    }
+
+    #float-child-second {
+        margin-bottom: 10px;
+    }
+
+    .float-child {
+        text-align: center;
+    }
+
+    .form {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+
+    #footerfirst {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #footersecond {
+        position: absolute;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .col-container {
+        display: table;
+        width: 100%;
+        color: white;
+        text-align: left;
+        position: relative;
+    }
+
+    .col {
+        display: inline-block;
+        padding-left: 100px;
+    }
+
+    #logo1 {
+        width: 130px;
+        height: 44px;
+    }
+
+    #logo2 {
+        width: 131px;
+        height: 51px;
+    }
+
+    #logo3 {
+        width: 131px;
+        height: 44px;
+    }
+
+    #logo4 {
+        width: 48px;
+        height: 67px;
+    }
+
+    #img1 {
+        float: right;
+        width: 100%;
+    }
+
+    #img2 {
+        float: left;
+        width: 100%;
+    }
+
+    #img3 {
+        float: right;
+        width: 100%;
+    }
+
+    #img4 {
+        float: right;
+        width: 100%;
+    }
+
+    #img5 {
+        float: left;
+        width: 100%;
+    }
+
+    #idea {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #bank {
+        display: none;
+    }
+
+    #contact {
+        padding-top: 0px;
+        text-align: left;
+    }
+
+    #rights {
+        padding-bottom: 0px;
+    }
+}
+
+
+@media (min-width: 1000px) and (max-width: 1920px) {
+
+    body {
+        width: 100%;
+    }
+
+    .form {
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 30px;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+
+    #footerfirst {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #footersecond {
+        position: absolute;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .float-child {
+        text-align: center;
+    }
+
+    #img1 {
+        float: right;
+        width: 100%;
+    }
+
+    #img2 {
+        float: left;
+        width: 100%;
+    }
+
+    #img3 {
+        float: right;
+        width: 100%;
+    }
+
+    #img4 {
+        float: right;
+        width: 100%;
+    }
+
+    #img5 {
+        float: left;
+        width: 100%;
+    }
+}

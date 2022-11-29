@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <script src="assets/js/theme.js" defer></script>
+    <title>Sparcle</title>
+</head>
+
+
+<body>
+
+    <div>
+        <nav class="navbar">
+
+            <div><img src="assets/img/logo.png" alt="logo" id="logo"></div>
+
+            <a class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#Ideja">Ideja</a></li>
+                    <li><a href="#Piesaki Sapni">Piesaki Sapni</a></li>
+                    <li><a href="#Uzņēmējiem">Uzņēmējiem</a></li>
+                    <li><a href="#Sapņu banka">Sapņu banka</a></li>
+                    <li><a href="#Sapņus atbalsta">Sapņus atbalsta</a></li>
+                    <li><a href="#99 iedvesmas stāsti">99 iedvesmas stāsti</a></li>
+                    <li>
+                        <a>
+                            <select>
+                                <option value="LV">LV</option>
+                                <option value="ENG">EN</option>
+                                <option value="RU">RU</option>
+                            </select>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <img class="ripped" src="assets/img/ripped.png" alt="">
+        <img class="background" src="assets/img/video.png">
+        <div class="logo"><img src="assets/img/play.png"></div>
+    </div>
+
+    <div class="box">
+        <div class="text">
+            <p>SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat pārdrošākos sapņus.
+                Šeit satiekas sapņotāji un viņu atbalstītāji - uzņēmumi, kas sniedz palīdzīgu roku,
+                lai kopā pasauli padarītu par labāku vietu mums visiem. Mēs esam gatavi palīdzēt Tev piepildīt sapni.
+                Kā pamats iedvesmai - tiek radīti arī 99 stāsti par Latvijas sievietēm.
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div><img class="ripped-photo" src="assets/img/ripped.png" alt=""></div>
+        <table id="photo-gallery">
+
+            <tr>
+                <td rowspan="2"><img src="assets/img/img1.png" id="img1" alt=""></td>
+                <td rowspan="2"><img src="assets/img/img2.png" id="img2" alt=""></td>
+                <td><img src="assets/img/img3.png" id="img3" alt=""></td>
+                <td rowspan="2"><img src="assets/img/img5.png" id="img5" alt=""></td>
+            </tr>
+
+            <tr>
+                <td><img src="assets/img/img4.png" id="img4" alt=""></td>
+            </tr>
+
+            <div><img class="downripped" src="assets/img/downripped.png" alt=""></div>
+        </table>
+    </div>
+
+
+    <div class="float-child" id="float-child-first">
+        <p class="txt">Vēlies piepildīt savu sapni?</p>
+        <button class="button" type="button">Sapņotājiem</button>
+    </div>
+
+    <div class="float-child" id="float-child-second">
+        <p class="txt">Vēlies palīdzēt kadām piepildīt sapni?</p>
+        <button class="button" type="button">Uzņēmējiem</button>
+    </div>
+
+
+    <div class="form">
+        <p class="txt">Sazināties ar mums</p>
+        <form>
+            <input class="info" type="text" id="flname" name="fname" placeholder="Vārds, Uzvārds*">
+            <input class="info" type="text" id="email" name="email" placeholder="E-pasts*"><br><br>
+            <input class="info" type="text" id="phone" name="phone" placeholder="Telefons*"><br><br>
+            <input class="info" type="text" id="question" name="question" placeholder="Jautājums, vai komentārs*">
+            <p>* obligāti aizpildāmie lauki</p>
+            <input type="checkbox" id="accpet" name="accpet">
+            <label for="accpet">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti
+                līdz brīdim, kamēr tas būs nepieciešams. </label><br><br>
+            <input class="button" type="submit" value="Sūtīt">
+        </form>
+    </div>
+
+
+    <div id="first">
+        <img src="assets/img/footerfirst.png" alt="footerfirst" id="footerfirst">
+        <div class="col-container">
+            <p id="footer-text">ATBALSTĪTĀJI</p>
+            <div id="footer-images">
+                <div class="col">
+                    <img src="assets/img/logo1.png" alt="logo1" id="logo1">
+                </div>
+
+                <div class="col">
+                    <img src="assets/img/logo2.png" alt="logo2" id="logo2">
+                </div>
+
+                <div class="col">
+                    <img src="assets/img/logo3.png" alt="logo3" id="logo3">
+                </div>
+
+                <div class="col">
+                    <img src="assets/img/logo4.png" alt="logo4" id="logo4">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <img src="assets/img/footersecond.png" alt="footersecond" id="footersecond">
+        <div class="col-container">
+
+            <div class="col" id="rights">
+                <img src="assets/img/logo5.png" alt="logosparcle">
+                <p id="footer-rights1">© SparkleHeart 2020. Visas tiesības aizsargātas.</p>
+            </div>
+
+            <div class="col" id="idea">
+                <h2>Ideja</h2>
+                <p>Piesaki sapni</p>
+                <p>Uzņēmējiem</p>
+                <p>Sapņu banka</p>
+                <p>Sapņus atbalsta</p>
+                <p>Iedevesmas stāsti</p>
+            </div>
+
+            <div class="col" id="bank">
+                <h2>Biedrība SparkleHeart</h2>
+                <p>Reģistrācijas nr.40008293119</p>
+                <p>Banka: SWEDBANK A/S</p>
+                <p>LV52HABA0551047652465</p>
+            </div>
+
+            <div class="col" id="contact">
+                <h2>Juris Gogulis</h2>
+                <p>juris.gogulis@sparkleheart.org</p>
+                <p>+37126890034</p>
+                <a href="#"><img src="assets/img/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="assets/img/instagram.png" alt="instagram"></a><br>
+                <a href="#">Privātuma politika</a>
+                <p id="footer-rights2">© SparkleHeart 2020. Visas tiesības aizsargātas.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
