@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
 
 * {
     box-sizing: border-box;
@@ -41,6 +42,7 @@ a {
     color: #060606;
     padding: 10px;
     display: block;
+    padding-right: 30px;
 }
 
 .navbar-links li a:hover {
@@ -67,10 +69,6 @@ a {
     width: 100%;
     background-color: black;
     border-radius: 10px;
-}
-
-.watchrequisite {
-    position: absolute;
 }
 
 .responsive {
@@ -151,13 +149,24 @@ a {
 
 .button {
     background-color: #FFA800;
-    border-radius: 30px;
     border-color: #FFA800;
+    border-radius: 30px;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     font-size: 18px;
-    margin: 4px 2px;
+    width: 233px;
+    height: 50px;
+}
+
+.submit-button {
+    width: 182px;
+    height: 62px;
+    background-color: #FFA800;
+    border-color: #FFA800;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
 }
 
 .txt {
@@ -165,9 +174,31 @@ a {
     color: #2F4858;
     font-family: 'Oswald';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 24px;
     line-height: 36px;
+    text-align: center;
+    color: #2F4858;
+}
+
+.txt-child {
+    text-transform: uppercase;
+    color: #2F4858;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #2F4858;
+}
+
+.txt-form {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
     text-align: center;
     color: #2F4858;
 }
@@ -177,7 +208,6 @@ a {
     text-align: center;
     width: 50%;
     float: left;
-    padding: 20px;
 }
 
 .button:hover {
@@ -317,15 +347,13 @@ input[ type="text"]::placeholder {
     }
 
     #float-child-first {
-        padding-left: 30px;
-        margin-bottom: 10px;
-        width: auto;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     #float-child-second {
-        padding-left: 0px;
-        margin-bottom: 10px;
-        width: auto;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .column {
@@ -367,6 +395,7 @@ input[ type="text"]::placeholder {
     .col {
         display: inline-block;
         padding-left: 100px;
+
     }
 
     #rights {
@@ -387,7 +416,59 @@ input[ type="text"]::placeholder {
         padding-top: 10px;
         padding-left: 50px;
     }
+
+    #footerfirst {
+        width: 100%;
+    }
+
+    #footersecond {
+        width: 100%;
+    }
+
+    .txt-form {
+        width: 280px;
+        height: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 36px;
+        color: #2F4858;
+    }
+
+    #logoteikums {
+        width: 25%;
+        padding-left: 70px;
+    }
+
+    #logosem {
+        width: 25%;
+    }
+
+    #logocitybee {
+        width: 25%;
+        padding-top: 0;
+    }
+
+    #logolinearis {
+        width: 25%;
+        padding-top: 0;
+    }
+
+    #footer-text {
+        padding-top: 100px;
+        height: 33px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 800;
+        color: #2F4858;
+    }
+
+
 }
+
 
 
 @media (max-width: 1000px) {
@@ -428,6 +509,7 @@ input[ type="text"]::placeholder {
         width: auto;
         text-align: center;
         justify-content: center;
+        margin-top: 50px;
     }
 
     #flname {
@@ -452,14 +534,21 @@ input[ type="text"]::placeholder {
     }
 
     #float-child-first {
-        margin-bottom: 10px;
+        margin-top: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
+
     }
 
     #float-child-second {
-        margin-bottom: 10px;
+        margin-top: 100px;
+        padding-top: 0;
+        padding-bottom: 0;
+
     }
 
     .float-child {
+        width: 100%;
         text-align: center;
     }
 
@@ -467,7 +556,7 @@ input[ type="text"]::placeholder {
         text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
-        margin-top: 200px;
+        margin-top: 500px;
         margin-left: auto;
         margin-right: auto;
         width: auto;
@@ -559,8 +648,277 @@ input[ type="text"]::placeholder {
     #rights {
         padding-bottom: 0px;
     }
+
+    #footer-text {
+        padding-top: 100px;
+        height: 33px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 800;
+        color: #2F4858;
+    }
 }
 
+@media (width: 1366px) {
+    .button {
+        margin-top: 20px;
+        width: 233px;
+        height: 50px;
+    }
+
+    .background {
+        height: 700px;
+    }
+
+    .navbar-links {
+        float: right;
+        margin-top: 20px;
+        display: flex;
+        list-style: none;
+    }
+
+    .navbar-links ul li a {
+        padding-right: 30px;
+    }
+
+    #logo {
+        padding-left: 60px;
+    }
+
+    .box {
+        margin-top: 50px;
+        width: 722px;
+    }
+
+
+
+    .container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ripped-photo {
+        position: absolute;
+        width: 100%;
+        top: 100px;
+    }
+
+    #photo-gallery {
+        margin-top: 100px;
+    }
+
+    .txt-form {
+        padding-top: 180px;
+        width: 819px;
+        height: 48px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 44px;
+        text-align: center;
+        color: #2F4858;
+        padding-bottom: 50px;
+    }
+
+    .txt {
+        margin-top: 0px;
+        margin-bottom: 30px;
+        height: 29px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        text-align: center;
+        color: #2F4858;
+    }
+
+    .txt-child {
+        text-transform: uppercase;
+        width: 540px;
+        padding-left: 40px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        height: 29px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        color: #2F4858;
+    }
+
+    .txt-form {
+        width: 280px;
+        height: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 36px;
+        color: #2F4858;
+    }
+
+    .float-child {
+        position: absolute;
+        width: 45%;
+    }
+
+    #float-child-first {
+        width: 750px;
+        padding-left: 100px;
+        padding-top: 100px;
+    }
+
+    #float-child-second {
+        width: 600px;
+        right: 120px;
+        padding-top: 100px;
+    }
+
+    .data {
+        padding-top: 30px;
+    }
+
+    #fields {
+        text-align: left;
+        padding-left: 380px;
+        margin-top: 5px;
+        width: 612px;
+        height: 25px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #2F4858;
+    }
+
+    #confirmation {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #2F4858;
+        width: 952px;
+        padding-top: 15px;
+        padding-left: 360px;
+    }
+
+    .submit-button {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        width: 182px;
+        height: 62px;
+        background-color: #FFA800;
+        border-radius: 30px;
+        border-color: #FFA800;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        margin: 4px 2px;
+        margin-top: 20px;
+    }
+
+    label {
+        max-width: 572px;
+    }
+
+    .form {
+        margin-top: 100px;
+    }
+
+
+
+    #first {
+        margin-top: 100px;
+    }
+
+    #footer-text {
+        padding-top: 100px;
+        height: 29px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 800;
+        color: #2F4858;
+    }
+
+    .col-container {
+        display: table;
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+
+    .col-container #rights {
+        float: left;
+        width: 25%;
+    }
+
+    .col-container #idea {
+        float: left;
+        width: 25%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .col-container #bank {
+        float: left;
+        width: 25%;
+        padding-left: 0;
+    }
+
+    .col-container #contact {
+        float: left;
+        width: 25%;
+    }
+
+    .footer-col {
+        padding-top: 0;
+    }
+
+    #footer-rights1 {
+        padding-top: 80px;
+    }
+
+    .social-media {
+        padding-top: 25px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+    }
+
+    #logoteikums {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    #logosem {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    #logocitybee {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    #logolinearis {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    
+}
 
 @media (min-width: 1000px) and (max-width: 1920px) {
 
@@ -624,5 +982,27 @@ input[ type="text"]::placeholder {
     #img5 {
         float: left;
         width: 100%;
+    }
+
+    .txt-form {
+        width: 280px;
+        height: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 36px;
+        color: #2F4858;
+    }
+
+    #footer-text {
+        padding-top: 100px;
+        height: 33px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 800;
+        color: #2F4858;
     }
 }

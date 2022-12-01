@@ -45,6 +45,7 @@
                 </ul>
             </div>
         </nav>
+        
     </div>
 
     <div class="container">
@@ -83,51 +84,55 @@
     </div>
 
 
-    <div class="float-child" id="float-child-first">
+    <div class="float-child" id="float-child-first" >
         <p class="txt">Vēlies piepildīt savu sapni?</p>
         <button class="button" type="button">Sapņotājiem</button>
     </div>
 
     <div class="float-child" id="float-child-second">
-        <p class="txt">Vēlies palīdzēt kadām piepildīt sapni?</p>
+        <p class="txt-child">Vēlies palīdzēt kadām piepildīt sapni?</p>
         <button class="button" type="button">Uzņēmējiem</button>
     </div>
 
 
     <div class="form">
-        <p class="txt">Sazināties ar mums</p>
-        <form>
+        <p class="txt-form">SAZINĀTIES AR MUMS</p>
+        <form class="data">
             <input class="info" type="text" id="flname" name="fname" placeholder="Vārds, Uzvārds*">
             <input class="info" type="text" id="email" name="email" placeholder="E-pasts*"><br><br>
             <input class="info" type="text" id="phone" name="phone" placeholder="Telefons*"><br><br>
             <input class="info" type="text" id="question" name="question" placeholder="Jautājums, vai komentārs*">
-            <p>* obligāti aizpildāmie lauki</p>
-            <input type="checkbox" id="accpet" name="accpet">
-            <label for="accpet">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti
-                līdz brīdim, kamēr tas būs nepieciešams. </label><br><br>
-            <input class="button" type="submit" value="Sūtīt">
+            <p id="fields">* obligāti aizpildāmie lauki</p>
+            <div id="confirmation">
+                <input type="checkbox" id="accpet" name="accpet">
+                <label for="accpet">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā
+                    un tiks saglabāti
+                    līdz brīdim, kamēr tas būs nepieciešams. </label><br><br>
+            </div>
+            <input class="submit-button" type="submit" value="Sūtīt">
         </form>
     </div>
 
 
     <div id="first">
         <img src="assets/img/footerfirst.png" alt="footerfirst" id="footerfirst">
+        
         <div class="col-container">
             <p id="footer-text">ATBALSTĪTĀJI</p>
             <div id="footer-images">
-                <div class="col">
+                <div class="col" id="logoteikums">
                     <img src="assets/img/logo1.png" alt="logo1" id="logo1">
                 </div>
 
-                <div class="col">
+                <div class="col" id="logosem">
                     <img src="assets/img/logo2.png" alt="logo2" id="logo2">
                 </div>
 
-                <div class="col">
+                <div class="col" id="logocitybee">
                     <img src="assets/img/logo3.png" alt="logo3" id="logo3">
                 </div>
 
-                <div class="col">
+                <div class="col" id="logolinearis">
                     <img src="assets/img/logo4.png" alt="logo4" id="logo4">
                 </div>
             </div>
@@ -140,7 +145,7 @@
         <div class="col-container">
 
             <div class="col" id="rights">
-                <img src="assets/img/logo5.png" alt="logosparcle">
+                <img src="assets/img/logo5.png" alt="logosparcle" id="footer-logo">
                 <p id="footer-rights1">© SparkleHeart 2020. Visas tiesības aizsargātas.</p>
             </div>
 
@@ -164,8 +169,9 @@
                 <h2>Juris Gogulis</h2>
                 <p>juris.gogulis@sparkleheart.org</p>
                 <p>+37126890034</p>
-                <a href="#"><img src="assets/img/facebook.png" alt="facebook"></a>
-                <a href="#"><img src="assets/img/instagram.png" alt="instagram"></a><br>
+                <p>Biķernieku iela 24a - 5, LV-1006</p>
+                <a href="#"><img src="assets/img/facebook.png" alt="facebook" class="social-media"></a>
+                <a href="#"><img src="assets/img/instagram.png" alt="instagram" class="social-media" "></a><br>
                 <a href="#">Privātuma politika</a>
                 <p id="footer-rights2">© SparkleHeart 2020. Visas tiesības aizsargātas.</p>
             </div>
